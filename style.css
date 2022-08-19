@@ -1,43 +1,80 @@
-container {
+body {
+    height: 100vh;
+}
+
+.container {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
-title {
+.title {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: #DDE0CD;
+    height: 4em;
+    font-size: 40px;
+    margin-bottom: 8px;
+    
 }
 
-shopCategories {
+.shopCategories {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-categoryBox {
-    justify-items: center;
+.categoryBox {
+    display: flex;
+    background-color: #ECE4D1;
+    justify-content: center;
+    width: 33%;
+    height: 4em;
+    font-size: 20px;
+    align-items: center;
 }
 
-topBanner {
+.topBanner {
     width: auto;
     height: 300px;
 }
 
-frameBox {
+.frameBox {
+    background-color: #F8F6EA;
     display: flex;
     flex-direction: row;
+    height: 100%;
 }
 
-frameBanner {
-    height: 200px;
-    width: 200px;
+.frameBanner {
+    height: 600px;
+    width: 44%;
 }
 
-clothingShopMenu {
+.clothingShopMenu {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 44%;
 }
 
-clothingShopBox {
-    justify-items: center;
+#shopTitle {
+    font-size: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.clothingShopBox {
+    display: flex;
+    background-color: #DDE0CD;
+    justify-content: center;
     align-content: stretch;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-bottom: 4px;
 }
