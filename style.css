@@ -1,0 +1,43 @@
+container {
+    display: flex;
+    flex-direction: column;
+}
+
+title {
+    justify-content: center;
+}
+
+shopCategories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+categoryBox {
+    justify-items: center;
+}
+
+topBanner {
+    width: auto;
+    height: 300px;
+}
+
+frameBox {
+    display: flex;
+    flex-direction: row;
+}
+
+frameBanner {
+    height: 200px;
+    width: 200px;
+}
+
+clothingShopMenu {
+    display: flex;
+    flex-direction: column;
+}
+
+clothingShopBox {
+    justify-items: center;
+    align-content: stretch;
+}
